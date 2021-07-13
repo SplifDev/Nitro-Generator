@@ -12,7 +12,7 @@ public:
     std::string buildJSON(std::string type, std::string name, std::string value);
     std::string insertInListOrOBJ(std::string type,  std::string loo, std::string data, bool end);
     std::string finalTouch(std::string loo);
-    std::string read(std::string fileName);
+    std::string read(std::string fileName, std::string what);
     
     bool fexists(const char *filename);
 

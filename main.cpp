@@ -3,8 +3,8 @@
 #include "bot.hpp"
 
 int main() {
-    //bool startArg = start();
-    bool startArg = false;
+    bool startArg = start();
+    //bool startArg = false;
     if (startArg) {
         createdOnDiscord(startArg);
         std::string BOTName = createNew(startArg);

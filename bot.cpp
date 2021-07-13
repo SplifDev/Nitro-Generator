@@ -147,5 +147,8 @@ std::string generateCONFIG(std::string name, std::string token) {
 
 void tmp() {
     json JSON;
-    JSON.read("config.json");
+    std::string token = JSON.read("config.json", "token");
+    std::string name  = JSON.read("config.json", "name");
+    std::cout << "NAME:  " << name << std::endl\
+              << "TOKEN: " << token << std::endl;
 }
