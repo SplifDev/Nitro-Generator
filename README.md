@@ -1,5 +1,5 @@
 # BOTool
-# A tool for creating bots super fast
+A tool for creating bots super fast
 
 # Usage:
   LINUX: cd /path/to/executable
