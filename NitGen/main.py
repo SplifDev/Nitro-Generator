@@ -64,10 +64,10 @@ class NitroGen: # Initialise the class
                 print(f" Error | {url} ") # Tell the user an error occurred
 
             if os.name == "nt": # If the system is windows
-                ctypes.windll.kernel32.SetConsoleTitleW(f"Nitro Generator and Checker - {len(valid)} Valid | {invalid} Invalid - Made by Drillenissen#4268") # Change the title
+                ctypes.windll.kernel32.SetConsoleTitleW(f"Nitro Generator and Checker - {len(valid)} Valid | {invalid} Invalid - Made by vrlicsime") # Change the title
                 print("")
             else: # If it is a unix system
-                print(f'\33]0;Nitro Generator and Checker - {len(valid)} Valid | {invalid} Invalid - Made by Drillenissen#4268\a', end='', flush=True) # Change the title
+                print(f'\33]0;Nitro Generator and Checker - {len(valid)} Valid | {invalid} Invalid - Made by vrlicsime\a', end='', flush=True) # Change the title
 
         print(f"""
 Results:
